@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>jugador.html</title>
+    <link href="css/jugador_css.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <input type=image src="media/home.png" alt="img_regresar" class="botonregreso" onclick="home()">
+    <div class="formulario">
+        <h1>Vista de Jugadores</h1>
+        <select class="ddlist"><option>-Seleccione el Jugador-</option></select>
+        <table class="tabla">
+            <tr>
+                <td class="lbl">Nombre:</td>
+                <td><input class="input" placeholder="Nombre" disabled></td>
+                <td class="lbl">Apellido</td>
+                <td><input class="inputpass" placeholder="Apellido" disabled></td>
+            </tr>
+             <tr>
+                <td class="lbl">Usuario:</td>
+                <td><input class="input" placeholder="Usuario" disabled></td>
+                <td class="lbl">Correo:</td>
+                <td><input class="inputpass" placeholder="Correo" disabled></td>
+             </tr>
+             <tr>
+                <td class="lbl">Contraseña:</td>
+                <td><input class="inputpass" placeholder="Contraseña" disabled></td>
+             </tr>
+        </table>
+    <input class="input" placeholder="Ingrese su contraseña para validar">
+    <button class="btn1" type="button">Validar</button>
+    </div>
+</body>
+
+</html>

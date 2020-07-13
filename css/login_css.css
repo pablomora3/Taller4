@@ -1,0 +1,67 @@
+/* Estilos para la pagina */
+html{
+  background-image: url("../media/fondo.jpg") /* Establece la imagen de fondo segun su ruta */
+}
+
+/* Estilos para el titulo */
+h1 {
+  color: dodgerblue; /*Color del texto*/
+  text-align: center; /*centrar el elemnto en la pantalla */
+  margin: 20px; /* Crea espacios alrededor del elemento */
+}
+
+/* Estilos para el div que contiene el formulario */
+.formulario {
+  background-color: #ccc; /* Color de fondo */
+  position: absolute; /* Posicion relacionada al body */
+  left: 50%; /* Margen izquierdo */
+  top: 50%; /* Margen arriba */
+  -webkit-transform: translate(-50%, -50%); /* Permite el desplazamiento del elemento */
+  text-align: center; /*centrar el elemnto en la pantalla */
+}
+
+.lbl{
+  font-size: 20px; /* Tamaño de la letra */ 
+  color: dodgerblue; /*Color del texto*/
+}
+
+.input{
+  font-size: 15px; /* Tamaño de la letra */ 
+}
+
+.inputpass{
+  font-size: 15px; /* Tamaño de la letra */
+  -webkit-text-security: disc; /* Tipo de mascara del input */
+}
+
+.btn1 {
+  background-color: steelblue; /* Color del boton */
+  border-radius: 15px; /* Angulo del borde */
+  width:150px; /* Ancho */
+  height:30px; /* Alto */
+  font-size: 18px; /* Tamaño de la letra */
+  margin: 20px; /* Crea espacios alrededor del elemento, en este caso me permite darle un efecto responsive de manera que se adaptaria a movil */
+  color: white; /* Color de la letra */
+}
+
+.btn1:hover { /* Accion al pasar cursor */
+  -webkit-transform: translate(0px, 5px); /* Permite el desplazamiento del elemento */
+  box-shadow: 5px 5px 5px 5px darkgrey; /* Agrega sombra */
+}
+
+.btn1:focus { /* Accion en el foco del elemento */
+  outline: none; /* Quita el foco, en este caso lo coloque ya que al hacer click quedaba un marco que no coincidia con mi elemento */
+}
+
+.botonregreso{
+  width:80px; /* Ancho */
+  height:50px; /* Alto */
+}
+
+.botonregreso:hover { /* Accion al pasar cursor */
+  -webkit-transform: translate(0px, 5px); /* Permite el desplazamiento del elemento */
+}
+
+.botonregreso:focus { /* Accion en el foco del elemento */
+  outline: none; /* Quita el foco, en este caso lo coloque ya que al hacer click quedaba un marco que no coincidia con mi elemento */
+}

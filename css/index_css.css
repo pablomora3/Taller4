@@ -1,0 +1,92 @@
+/* Estilos para la pagina */
+html{
+  
+  background-image: url("../media/fondo.jpg") /* Establece la imagen de fondo segun su ruta */
+}
+
+/* Estilos para el titulo */
+h1 {
+  color: white; /*Color del texto*/
+  text-align: center; /*centrar el elemnto en la pantalla */
+}
+
+/* Estilos para el div que contiene los botones */
+.botones {
+  text-align: center; /* Centrar el div */
+}
+
+/* Estilos para los botones (Comento el 1 los demas son iguales) */
+.btn1 {
+  background-color: blue; /* Color del boton */
+  border-radius: 15px; /* Angulo del borde */
+  width:200px; /* Ancho */
+  height:60px; /* Alto */
+  font-size: 22px; /* Tamaño de la letra */
+  margin: 20px; /* Crea espacios alrededor del elemento, en este caso me permite darle un efecto responsive de manera que se adaptaria a movil */
+  color: white; /* Color de la letra */
+}
+
+.btn1:hover { /* Accion al pasar cursor */
+  -webkit-transform: translate(0px, 5px); /* Permite el desplazamiento del elemento */
+  box-shadow: 5px 5px 5px 5px darkblue; /* Agrega sombra */
+}
+
+.btn1:focus { /* Accion en el foco del elemento */
+  outline: none; /* Quita el foco, en este caso lo coloque ya que al hacer click quedaba un marco que no coincidia con mi elemento */
+}
+
+.btn2 {
+  background-color: green;
+  border-radius: 15px;
+  width:200px;
+  height:60px;
+  font-size: 22px;
+  margin: 20px;
+  color: white;
+}
+
+.btn2:hover {
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 5px 5px 5px 5px darkgreen;
+}
+
+.btn2:focus {
+  outline: none;
+}
+
+.btn3 {
+  background-color: red;
+  border-radius: 15px;
+  width:200px;
+  height:60px;
+  font-size: 22px;
+  margin: 20px;
+  color: white;
+}
+
+.btn3:hover {
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 5px 5px 5px 5px darkred;
+}
+
+.btn3:focus {
+  outline: none;
+}
+
+/* Estilos para div de la imagen */
+.imagen {
+  text-align: center; /* Centra la imagen */
+}
+
+.botoncerrar{
+  width:50px; /* Ancho */
+  height:50px; /* Alto */
+}
+
+.botoncerrar:hover { /* Accion al pasar cursor */
+  -webkit-transform: translate(0px, 5px); /* Permite el desplazamiento del elemento */
+}
+
+.botoncerrar:focus { /* Accion en el foco del elemento */
+  outline: none; /* Quita el foco, en este caso lo coloque ya que al hacer click quedaba un marco que no coincidia con mi elemento */
+}
